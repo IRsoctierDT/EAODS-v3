@@ -1,0 +1,27 @@
+name: Documentation Quality
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-docs.txt
+      - run: mkdocs build --strict
+      - name: Check for obvious secret files
+        shell: bash
+        run: |
+          if find . -type f \( -name '.env' -o -name '*.pem' -o -name '*.key' \) | grep -q .; then
+            echo "Prohibited secret-like file detected."
+            exit 1
+          fi

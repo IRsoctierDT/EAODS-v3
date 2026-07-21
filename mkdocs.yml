@@ -1,0 +1,26 @@
+site_name: Enterprise AI Operator Documentation Suite v3
+site_description: Enterprise governance, architecture, Domain 03 cybersecurity, and AI operations documentation.
+repo_name: IRsoctierDT/EAODS-v3
+repo_url: https://github.com/IRsoctierDT/EAODS-v3
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.superfences
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+nav:
+  - Home: index.md
+  - Overview:
+      - Vision: overview/vision.md
+      - Repository Map: overview/repository-map.md
+  - Frameworks:
+      - Volume 8 — Security Engineering: ../frameworks/EAODS-v17.3/volume-08-security-engineering.md
