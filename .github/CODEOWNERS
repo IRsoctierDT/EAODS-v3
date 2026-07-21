@@ -1,0 +1,9 @@
+# Default ownership
+* @IRsoctierDT
+
+# Governance, standards, automation, and frameworks
+/.github/ @IRsoctierDT
+/docs/governance/ @IRsoctierDT
+/architecture/ @IRsoctierDT
+/standards/ @IRsoctierDT
+/frameworks/ @IRsoctierDT

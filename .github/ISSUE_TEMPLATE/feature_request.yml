@@ -1,0 +1,26 @@
+name: Framework enhancement
+description: Propose an EAODS framework, governance, architecture, or operational enhancement.
+title: "[Enhancement]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: business_need
+    attributes:
+      label: Business or operational need
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed enhancement
+    validations:
+      required: true
+  - type: input
+    id: affected_volumes
+    attributes:
+      label: Affected EAODS volumes
+  - type: textarea
+    id: risks
+    attributes:
+      label: Governance, architecture, and security implications

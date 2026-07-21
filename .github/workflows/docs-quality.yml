@@ -1,0 +1,40 @@
+name: Documentation Quality
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements-docs.txt
+
+      - name: Build documentation strictly
+        run: mkdocs build --strict
+
+      - name: Validate required front matter fields
+        run: python scripts/validate_front_matter.py
+
+      - name: Detect prohibited secret-like files
+        shell: bash
+        run: |
+          if find . -type f \( -name '.env' -o -name '*.pem' -o -name '*.key' -o -name '*.p12' -o -name '*.pfx' \) | grep -q .; then
+            echo "Prohibited secret-like file detected."
+            exit 1
+          fi

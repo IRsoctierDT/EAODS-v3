@@ -1,0 +1,31 @@
+name: Documentation defect
+description: Report an incorrect, broken, or inconsistent EAODS artifact.
+title: "[Defect]: "
+labels:
+  - defect
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Defect description
+      description: Describe the incorrect or broken behavior.
+    validations:
+      required: true
+  - type: input
+    id: artifact
+    attributes:
+      label: Affected artifact
+      placeholder: frameworks/EAODS-v17.3/...
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected correction
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Security confirmation
+      options:
+        - label: This report contains no secrets or sensitive operational evidence.
+          required: true

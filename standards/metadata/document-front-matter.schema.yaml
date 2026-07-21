@@ -1,0 +1,10 @@
+required:
+  - title
+  - version
+  - owner
+  - suite
+  - status
+  - classification
+  - purpose
+  - architecture_domain
+  - review_cycle

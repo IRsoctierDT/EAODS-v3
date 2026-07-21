@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private security report
+    url: https://github.com/IRsoctierDT/EAODS-v3/security
+    about: Do not publish sensitive vulnerability details in a public issue.
