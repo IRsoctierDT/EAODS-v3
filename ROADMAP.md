@@ -11,7 +11,7 @@
 ### v17.3 Reference Implementation and Platform Engineering
 
 - [x] Volumes 1–8 drafted
-- [ ] Volume 9 — Infrastructure Resilience, HA, and Disaster Recovery
+- [x] Volume 9 — Infrastructure Resilience, HA, and Disaster Recovery
 - [ ] Volume 10 — Platform Operations Center and SRE
 
 ## Repository maturity
