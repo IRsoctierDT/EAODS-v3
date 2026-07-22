@@ -1,0 +1,64 @@
+# EAODS Canonical Object Identifier Registry
+# Governed by: docs/standards/canonical-terminology-and-identifiers.md (STD-0001)
+# Rules:
+#   - Identifier format: <PREFIX>-<zero-padded integer>
+#   - Prefixes are registered here before first use; unregistered prefixes fail review.
+#   - Identifiers are never reused or renumbered once published.
+#   - Width is fixed per prefix; new prefixes use 6 digits.
+
+registry_version: "1.0.0"
+identifier_pattern: "^[A-Z][A-Z0-9-]*-[0-9]{4,6}$"
+
+prefixes:
+  - prefix: EAODS-CTRL
+    object_type: Engineering control
+    digits: 6
+    defined_in: "EAODS v17.3 Volume 11 — Reference Control Catalog"
+    example: EAODS-CTRL-000184
+    owner: Engineering Governance
+
+  - prefix: SVC
+    object_type: Platform service
+    digits: 5
+    defined_in: "EAODS v17.3 Volume 10 — Platform Operations Center & SRE"
+    example: SVC-00387
+    owner: Enterprise Platform Operations Center
+
+  - prefix: RES
+    object_type: Resilience service record
+    digits: 5
+    defined_in: "EAODS v17.3 Volume 9 — Infrastructure Resilience"
+    example: RES-00163
+    owner: Platform Engineering
+
+  - prefix: ADR
+    object_type: Architecture decision record
+    digits: 4
+    defined_in: "architecture/adr/"
+    example: ADR-0002
+    owner: Enterprise Architecture Review Board
+
+  - prefix: STD
+    object_type: Enterprise standard
+    digits: 4
+    defined_in: "docs/standards/"
+    example: STD-0001
+    owner: Engineering Governance
+
+  - prefix: TERM
+    object_type: Canonical vocabulary term
+    digits: 4
+    defined_in: "standards/vocabulary/canonical-terms.yaml"
+    example: TERM-0001
+    owner: Engineering Governance
+
+reserved_prefixes:
+  - prefix: THR
+    object_type: Threat model
+    planned_by: "Roadmap — threat-model library"
+  - prefix: RUN
+    object_type: Operational runbook
+    planned_by: "Roadmap — operational runbook library"
+  - prefix: PAT
+    object_type: Architecture pattern
+    planned_by: "Roadmap — architecture pattern library"
