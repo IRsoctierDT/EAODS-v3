@@ -13,6 +13,7 @@
 - [x] Volumes 1–8 drafted
 - [x] Volume 9 — Infrastructure Resilience, HA, and Disaster Recovery
 - [x] Volume 10 — Platform Operations Center and SRE
+- [x] Volume 11 — Enterprise Reference Control Catalog and Architecture Compliance
 
 ## Repository maturity
 
