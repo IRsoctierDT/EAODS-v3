@@ -12,7 +12,7 @@
 
 - [x] Volumes 1–8 drafted
 - [x] Volume 9 — Infrastructure Resilience, High Availability, and Disaster Recovery
-- [ ] Volume 10 — Enterprise Platform Operations Center, SRE, and Operational Engineering
+- [x] Volume 10 — Enterprise Platform Operations Center, SRE, and Operational Engineering
 
 ## Platform evolution
 
