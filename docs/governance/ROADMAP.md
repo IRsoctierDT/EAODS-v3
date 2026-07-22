@@ -13,13 +13,14 @@
 - [x] Volumes 1–8 drafted
 - [x] Volume 9 — Infrastructure Resilience, High Availability, and Disaster Recovery
 - [x] Volume 10 — Enterprise Platform Operations Center, SRE, and Operational Engineering
+- [x] Volume 11 — Enterprise Reference Control Catalog, Engineering Standards, and Architecture Compliance
 
 ## Platform evolution
 
 - [x] Define EAODS as an Enterprise Reference Operating Model
 - [x] Establish Govern, Design, Operate, and Build as the four enduring pillars
 - [ ] Establish canonical terminology and object identifiers
-- [ ] Create the security and governance control catalog
+- [x] Create the security and governance control catalog
 - [ ] Create the threat-model library
 - [ ] Create the operational runbook library
 - [ ] Create the architecture pattern library

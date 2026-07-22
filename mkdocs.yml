@@ -40,6 +40,7 @@ nav:
           - Volume 8 — Security Engineering: frameworks/EAODS-v17.3/volume-08-security-engineering.md
           - Volume 9 — Infrastructure Resilience: frameworks/EAODS-v17.3/volume-09-infrastructure-resilience.md
           - Volume 10 — Platform Operations & SRE: frameworks/EAODS-v17.3/volume-10-platform-operations.md
+          - Volume 11 — Control Catalog & Compliance: frameworks/EAODS-v17.3/volume-11-control-catalog.md
   - Governance:
       - Governance: governance/GOVERNANCE.md
       - Security: governance/SECURITY.md
