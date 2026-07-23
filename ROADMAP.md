@@ -1,26 +1,7 @@
 # EAODS v3 Roadmap
 
-## Completed framework lines
+The authoritative roadmap lives in the documentation portal:
+**[docs/governance/ROADMAP.md](./docs/governance/ROADMAP.md)**
 
-- v17.0 Domain 03 Cyber Defense and Digital Resilience
-- v17.1 Domain 03 Reference Architecture and Implementation Blueprint
-- v17.2 Domain 03 Operations Manual and Executive Playbook
-
-## Active framework line
-
-### v17.3 Reference Implementation and Platform Engineering
-
-- [x] Volumes 1–8 drafted
-- [x] Volume 9 — Infrastructure Resilience, HA, and Disaster Recovery
-- [x] Volume 10 — Platform Operations Center and SRE
-- [x] Volume 11 — Enterprise Reference Control Catalog and Architecture Compliance
-
-## Repository maturity
-
-- [x] Governance baseline
-- [x] Documentation portal configuration
-- [x] CI quality workflow
-- [ ] GitHub Pages activation
-- [ ] Branch protection
-- [ ] Release automation
-- [ ] Full historical volume migration
+This file is a pointer, not a copy — the two had drifted, so the portal copy
+is now the single source of truth.
