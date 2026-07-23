@@ -24,8 +24,8 @@
 - [x] Create the threat-model library
 - [x] Create the operational runbook library
 - [x] Create the architecture pattern library
-- [ ] Implement cross-artifact traceability
-- [ ] Introduce machine-readable knowledge-graph metadata
+- [x] Implement cross-artifact traceability
+- [x] Introduce machine-readable knowledge-graph metadata
 - [ ] Add reference implementations
 
 ## Repository maturity
