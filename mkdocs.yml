@@ -43,6 +43,12 @@ nav:
           - Volume 11 — Control Catalog & Compliance: frameworks/EAODS-v17.3/volume-11-control-catalog.md
   - Standards:
       - STD-0001 Terminology & Identifiers: standards/canonical-terminology-and-identifiers.md
+  - Patterns:
+      - Pattern Library: patterns/index.md
+      - PAT-0001 Zero Trust Service Identity: patterns/PAT-0001-zero-trust-service-identity.md
+      - PAT-0002 Error-Budget-Gated Delivery: patterns/PAT-0002-error-budget-gated-delivery.md
+      - PAT-0003 Continuous Assurance Evidence Pipeline: patterns/PAT-0003-continuous-assurance-evidence-pipeline.md
+      - PAT-0004 Governed Recovery Orchestration: patterns/PAT-0004-governed-recovery-orchestration.md
   - Governance:
       - Governance: governance/GOVERNANCE.md
       - Security: governance/SECURITY.md

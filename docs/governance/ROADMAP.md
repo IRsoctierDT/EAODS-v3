@@ -23,7 +23,7 @@
 - [x] Create the security and governance control catalog
 - [ ] Create the threat-model library
 - [ ] Create the operational runbook library
-- [ ] Create the architecture pattern library
+- [x] Create the architecture pattern library
 - [ ] Implement cross-artifact traceability
 - [ ] Introduce machine-readable knowledge-graph metadata
 - [ ] Add reference implementations

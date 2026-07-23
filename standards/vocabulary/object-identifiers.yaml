@@ -52,6 +52,13 @@ prefixes:
     example: TERM-0001
     owner: Engineering Governance
 
+  - prefix: PAT
+    object_type: Architecture pattern
+    digits: 4
+    defined_in: "docs/patterns/"
+    example: PAT-0001
+    owner: Enterprise Architecture Review Board
+
 reserved_prefixes:
   - prefix: THR
     object_type: Threat model
@@ -59,6 +66,3 @@ reserved_prefixes:
   - prefix: RUN
     object_type: Operational runbook
     planned_by: "Roadmap — operational runbook library"
-  - prefix: PAT
-    object_type: Architecture pattern
-    planned_by: "Roadmap — architecture pattern library"

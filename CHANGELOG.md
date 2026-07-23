@@ -11,4 +11,5 @@
 - Domain 03 v17.3 Volume 10 — Enterprise Platform Operations Center, SRE, and operational engineering reference.
 - Domain 03 v17.3 Volume 11 — Enterprise Reference Control Catalog, engineering standards, and architecture compliance framework.
 - STD-0001 canonical terminology and object identifier standard with machine-readable registries under standards/vocabulary/.
+- Architecture pattern library (PAT-0001 through PAT-0004) extracted from framework volumes 8-11.
 - Documentation quality workflow.
