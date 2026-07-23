@@ -1,0 +1,55 @@
+# EAODS Knowledge-Graph Relationship Registry
+# Governed by: docs/standards/cross-artifact-traceability.md (STD-0002)
+# Validated by: scripts/validate_traceability.py (CI-enforced)
+# Rules:
+#   - Every endpoint must be a registered-prefix identifier that exists in the repository.
+#   - Edge types are drawn from edge_types below; new types require Engineering Governance review.
+#   - Edges are directed: subject --type--> object.
+
+graph_version: "1.0.0"
+
+edge_types:
+  - implements        # subject realizes the control/standard named by object
+  - operationalizes   # subject is the executable procedure for the pattern/policy named by object
+  - mitigates         # subject reduces the threat named by object
+  - applies_to        # subject governs or acts upon the service/record named by object
+  - emits_evidence_to # subject produces assurance evidence consumed under object
+  - governed_by       # subject is subordinate to the standard/decision named by object
+
+edges:
+  # Patterns realize controls
+  - { subject: PAT-0001, type: implements, object: EAODS-CTRL-000184 }
+
+  # Runbooks operationalize patterns
+  - { subject: RUN-0001, type: operationalizes, object: PAT-0004 }
+  - { subject: RUN-0002, type: operationalizes, object: PAT-0002 }
+  - { subject: RUN-0003, type: operationalizes, object: PAT-0003 }
+
+  # Runbooks act on canonical records
+  - { subject: RUN-0001, type: applies_to, object: RES-00163 }
+  - { subject: RUN-0002, type: applies_to, object: SVC-00387 }
+  - { subject: RUN-0003, type: applies_to, object: EAODS-CTRL-000184 }
+
+  # Threat models are mitigated by patterns, controls, and runbooks
+  - { subject: PAT-0001, type: mitigates, object: THR-0001 }
+  - { subject: EAODS-CTRL-000184, type: mitigates, object: THR-0001 }
+  - { subject: RUN-0001, type: mitigates, object: THR-0001 }
+  - { subject: PAT-0001, type: mitigates, object: THR-0002 }
+  - { subject: RUN-0003, type: mitigates, object: THR-0002 }
+  - { subject: PAT-0003, type: mitigates, object: THR-0003 }
+  - { subject: RUN-0003, type: mitigates, object: THR-0003 }
+
+  # Evidence flows
+  - { subject: PAT-0001, type: emits_evidence_to, object: PAT-0003 }
+  - { subject: PAT-0002, type: emits_evidence_to, object: PAT-0003 }
+  - { subject: PAT-0004, type: emits_evidence_to, object: PAT-0003 }
+  - { subject: RUN-0001, type: emits_evidence_to, object: PAT-0003 }
+  - { subject: RUN-0002, type: emits_evidence_to, object: PAT-0003 }
+  - { subject: RUN-0003, type: emits_evidence_to, object: PAT-0003 }
+
+  # Governance chain
+  - { subject: PAT-0001, type: governed_by, object: STD-0001 }
+  - { subject: RUN-0001, type: governed_by, object: STD-0001 }
+  - { subject: THR-0001, type: governed_by, object: STD-0001 }
+  - { subject: STD-0001, type: governed_by, object: ADR-0002 }
+  - { subject: STD-0002, type: governed_by, object: ADR-0002 }

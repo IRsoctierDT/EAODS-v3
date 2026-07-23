@@ -14,4 +14,5 @@
 - Architecture pattern library (PAT-0001 through PAT-0004) extracted from framework volumes 8-11.
 - Operational runbook library (RUN-0001 through RUN-0003) operationalizing volumes 9-11.
 - Threat-model library (THR-0001 through THR-0003) covering identity, LLM injection, and evidence-integrity boundaries.
+- STD-0002 cross-artifact traceability standard with machine-readable knowledge graph (standards/graph/) and CI-enforced validation.
 - Documentation quality workflow.

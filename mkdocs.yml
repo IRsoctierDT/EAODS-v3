@@ -43,6 +43,7 @@ nav:
           - Volume 11 — Control Catalog & Compliance: frameworks/EAODS-v17.3/volume-11-control-catalog.md
   - Standards:
       - STD-0001 Terminology & Identifiers: standards/canonical-terminology-and-identifiers.md
+      - STD-0002 Traceability & Knowledge Graph: standards/cross-artifact-traceability.md
   - Patterns:
       - Pattern Library: patterns/index.md
       - PAT-0001 Zero Trust Service Identity: patterns/PAT-0001-zero-trust-service-identity.md

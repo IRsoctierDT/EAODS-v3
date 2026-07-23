@@ -32,6 +32,9 @@ jobs:
       - name: Validate required front matter fields
         run: python scripts/validate_front_matter.py
 
+      - name: Validate cross-artifact traceability
+        run: python scripts/validate_traceability.py
+
       - name: Detect prohibited secret-like files
         shell: bash
         run: |
