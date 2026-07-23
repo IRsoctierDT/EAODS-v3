@@ -37,6 +37,6 @@
 - [x] Dependabot
 - [x] Issue templates
 - [x] Release workflow
-- [ ] GitHub Pages activation
-- [ ] Branch protection
+- [x] GitHub Pages activation
+- [x] Branch protection (required `validate` check, strict, admin-enforced)
 - [ ] Full historical migration
