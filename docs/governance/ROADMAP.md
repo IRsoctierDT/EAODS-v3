@@ -26,7 +26,7 @@
 - [x] Create the architecture pattern library
 - [x] Implement cross-artifact traceability
 - [x] Introduce machine-readable knowledge-graph metadata
-- [ ] Add reference implementations
+- [x] Add reference implementations
 
 ## Repository maturity
 
