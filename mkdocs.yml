@@ -41,6 +41,8 @@ nav:
           - Volume 9 — Infrastructure Resilience: frameworks/EAODS-v17.3/volume-09-infrastructure-resilience.md
           - Volume 10 — Platform Operations & SRE: frameworks/EAODS-v17.3/volume-10-platform-operations.md
           - Volume 11 — Control Catalog & Compliance: frameworks/EAODS-v17.3/volume-11-control-catalog.md
+  - Standards:
+      - STD-0001 Terminology & Identifiers: standards/canonical-terminology-and-identifiers.md
   - Governance:
       - Governance: governance/GOVERNANCE.md
       - Security: governance/SECURITY.md

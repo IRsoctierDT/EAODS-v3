@@ -1,0 +1,61 @@
+# EAODS Canonical Vocabulary
+# Governed by: docs/standards/canonical-terminology-and-identifiers.md (STD-0001)
+# Rules:
+#   - One canonical name per concept; aliases listed explicitly and used only when quoting.
+#   - New normative terms are registered here before first use in a framework volume.
+#   - Terms are never redefined silently; definition changes require Engineering Governance review.
+
+vocabulary_version: "1.0.0"
+
+terms:
+  - id: TERM-0001
+    term: Enterprise Digital Constitution
+    definition: "The supreme governance authority for the EAODS enterprise; all policies, standards, and controls derive from it."
+    defined_in: "EAODS v16.0-alpha Volume 1"
+
+  - id: TERM-0002
+    term: Enterprise Cyber Command
+    definition: "The operational authority directing enterprise cybersecurity operations."
+    defined_in: "EAODS v17.0"
+
+  - id: TERM-0003
+    term: Enterprise Platform Operations Center
+    definition: "The operational authority for platform health, reliability, performance, and continuous improvement."
+    aliases: ["EPOC"]
+    defined_in: "EAODS v17.3 Volume 10"
+
+  - id: TERM-0004
+    term: Continuous Assurance
+    definition: "The independent function that collects and verifies operational evidence against enterprise objectives and controls."
+    defined_in: "EAODS v17.2"
+
+  - id: TERM-0005
+    term: Executive Control Tower
+    definition: "The executive visibility layer aggregating authoritative operational, risk, and compliance telemetry."
+    defined_in: "EAODS v17.2"
+
+  - id: TERM-0006
+    term: Automation Fabric
+    definition: "The governed execution layer for enterprise automation and AI-agent workloads."
+    aliases: ["Enterprise Automation Fabric"]
+    defined_in: "EAODS v17.1"
+
+  - id: TERM-0007
+    term: Enterprise Knowledge Graph
+    definition: "The machine-readable relationship layer connecting EAODS objects, controls, services, and evidence."
+    defined_in: "EAODS v17.1"
+
+  - id: TERM-0008
+    term: Engineering control
+    definition: "A registered, classified, evidence-backed requirement governing how platform capabilities are designed, built, or operated."
+    defined_in: "EAODS v17.3 Volume 11"
+
+  - id: TERM-0009
+    term: Error budget
+    definition: "The measured allowance of unreliability a service may consume before change activity is gated by engineering review."
+    defined_in: "EAODS v17.3 Volume 10"
+
+  - id: TERM-0010
+    term: Human review gate
+    definition: "A mandatory named-reviewer approval step required before a normative artifact or irreversible action takes effect."
+    defined_in: "EAODS v3 GOVERNANCE.md"

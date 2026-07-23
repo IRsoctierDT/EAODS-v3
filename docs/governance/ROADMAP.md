@@ -19,7 +19,7 @@
 
 - [x] Define EAODS as an Enterprise Reference Operating Model
 - [x] Establish Govern, Design, Operate, and Build as the four enduring pillars
-- [ ] Establish canonical terminology and object identifiers
+- [x] Establish canonical terminology and object identifiers
 - [x] Create the security and governance control catalog
 - [ ] Create the threat-model library
 - [ ] Create the operational runbook library
