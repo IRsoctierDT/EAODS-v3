@@ -54,6 +54,11 @@ nav:
       - RUN-0001 Service Recovery Execution: runbooks/RUN-0001-service-recovery-execution.md
       - RUN-0002 Error Budget Exhaustion Response: runbooks/RUN-0002-error-budget-exhaustion-response.md
       - RUN-0003 Compliance Deviation Response: runbooks/RUN-0003-compliance-deviation-response.md
+  - Threat Models:
+      - Threat-Model Library: threat-models/index.md
+      - THR-0001 Compromised Service Identity: threat-models/THR-0001-compromised-service-identity.md
+      - THR-0002 LLM Instruction Injection: threat-models/THR-0002-llm-instruction-injection.md
+      - THR-0003 Assurance Evidence Tampering: threat-models/THR-0003-assurance-evidence-tampering.md
   - Governance:
       - Governance: governance/GOVERNANCE.md
       - Security: governance/SECURITY.md
