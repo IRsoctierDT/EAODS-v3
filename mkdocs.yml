@@ -49,6 +49,11 @@ nav:
       - PAT-0002 Error-Budget-Gated Delivery: patterns/PAT-0002-error-budget-gated-delivery.md
       - PAT-0003 Continuous Assurance Evidence Pipeline: patterns/PAT-0003-continuous-assurance-evidence-pipeline.md
       - PAT-0004 Governed Recovery Orchestration: patterns/PAT-0004-governed-recovery-orchestration.md
+  - Runbooks:
+      - Runbook Library: runbooks/index.md
+      - RUN-0001 Service Recovery Execution: runbooks/RUN-0001-service-recovery-execution.md
+      - RUN-0002 Error Budget Exhaustion Response: runbooks/RUN-0002-error-budget-exhaustion-response.md
+      - RUN-0003 Compliance Deviation Response: runbooks/RUN-0003-compliance-deviation-response.md
   - Governance:
       - Governance: governance/GOVERNANCE.md
       - Security: governance/SECURITY.md

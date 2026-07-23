@@ -59,10 +59,14 @@ prefixes:
     example: PAT-0001
     owner: Enterprise Architecture Review Board
 
+  - prefix: RUN
+    object_type: Operational runbook
+    digits: 4
+    defined_in: "docs/runbooks/"
+    example: RUN-0001
+    owner: Enterprise Platform Operations Center
+
 reserved_prefixes:
   - prefix: THR
     object_type: Threat model
     planned_by: "Roadmap — threat-model library"
-  - prefix: RUN
-    object_type: Operational runbook
-    planned_by: "Roadmap — operational runbook library"
