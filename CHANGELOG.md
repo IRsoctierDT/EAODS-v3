@@ -16,4 +16,5 @@
 - Threat-model library (THR-0001 through THR-0003) covering identity, LLM injection, and evidence-integrity boundaries.
 - STD-0002 cross-artifact traceability standard with machine-readable knowledge graph (standards/graph/) and CI-enforced validation.
 - Reference implementation index linking the IANUA Agent Trust Broker as the realization of PAT-0001 and EAODS-CTRL-000184.
+- Unified Historical Corpus (1.0.0-reconstructed) under docs/history/ — migration-control baseline with source inventory, provenance ledger, exception queue, and Volume 10 north-star charter.
 - Documentation quality workflow.

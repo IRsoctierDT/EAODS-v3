@@ -39,4 +39,5 @@
 - [x] Release workflow
 - [x] GitHub Pages activation
 - [x] Branch protection (required `validate` check, strict, admin-enforced)
-- [ ] Full historical migration
+- [x] Historical migration-control baseline (Unified Historical Corpus registered under docs/history/)
+- [ ] Full historical migration (open exceptions EXC-001..013 in the corpus exception queue)
