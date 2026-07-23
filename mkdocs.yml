@@ -62,6 +62,16 @@ nav:
       - THR-0003 Assurance Evidence Tampering: threat-models/THR-0003-assurance-evidence-tampering.md
   - Reference Implementations:
       - Implementation Index: reference-implementations/index.md
+  - History:
+      - Historical Corpus: history/index.md
+      - Master Corpus: history/00_MASTER_CORPUS.md
+      - Source Inventory: history/01_SOURCE_INVENTORY.md
+      - Migration Manifest: history/02_MIGRATION_MANIFEST.md
+      - Canonical Mapping Matrix: history/03_CANONICAL_MAPPING_MATRIX.md
+      - Provenance & Reconstruction Ledger: history/04_PROVENANCE_AND_RECONSTRUCTION_LEDGER.md
+      - Exception Queue: history/05_EXCEPTION_QUEUE.md
+      - Volume 10 North Star Charter: history/06_VOLUME_10_NORTH_STAR_CHARTER.md
+      - Historical Artifact Records: history/07_HISTORICAL_ARTIFACT_RECORDS.md
   - Governance:
       - Governance: governance/GOVERNANCE.md
       - Security: governance/SECURITY.md
